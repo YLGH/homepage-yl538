@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="sweetalert/dist/sweetalert.css">
+    <script src="sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+    var java = "I have over four years of experience in Java. In my first year of university I created a graphical game of life API. In my second year I created a multiuser chat client and server using Java's synchronization libraries, reflections, serialization, and other tools. I generally use Java as my language of choice for competative programming."
+
+    var cpp = "I have over two years of experience using C/C++. For my network class I made a C++ API that decodes TCP and IP headers. During an internship with the Raspberry Pi foundation, I used C++ to improve the game engine of Pyland. During my internship with Bloomberg I used C++ to create the backend for a backup restore system."
+
+    var python = "I self taught myself python and have not had any formal education on it. During my internship with Raspberry Pi and British Geological Survey I used python to create PiTap, which used four piezo sensors connected to the four corners of a large white board to calculate the difference of times it took the pressure wave to reach the sensors of a tap. I used python to implement a Gauss-Newton iterative method to calculate the location of the tap using the differences."
+    </script>
+</head>
+<ul class="nav nav-tabs tabs-advanced">
+    <li><a href="index.html">Home</a></li>
+    <li class="active"><a href="skills.html">Skills</a></li>
+    <li><a href="interests.html">Interests</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="onlinelinks.html">Online</a></li>
+</ul>
+
+<body>
+    <div class="container">
+        <h1>Skills</h1>
+        <hr>
+        <div class="row">
+            <div class="col-xs-2">
+                <button onclick="swal(java)" class="thumbnail">
+                    <img src="skills/java.png" class="img-responsive">
+                </button>
+            </div>
+            <div class="col-xs-2">
+                <button onclick="swal(cpp)" class="thumbnail">
+                    <img src="skills/cpp.png" class="img-responsive">
+                    </a>
+            </div>
+            <div class="col-xs-2">
+                <button onclick="swal(python); swal" class="thumbnail">
+                    <img src="skills/python.png" class="img-responsive">
+                    </a>
+            </div>
+            <div class="col-xs-2">
+                <a href="https://github.com/YLGH/" class="thumbnail">
+                    <img src="skills/github.png" class="img-responsive">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

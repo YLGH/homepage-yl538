@@ -1,0 +1,17 @@
+body {
+    /*background-image:"stjohns.jpg"*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("stjohns.jpg");
+}
+
+.tabs-advanced {
+    display: table;
+    border: none;
+}
+
+.jumbotron .bg {
+    opacity: 0.20;
+    width: 100%;
+    height: 100%;
+ }
