@@ -1,17 +1,157 @@
 body {
-    /*background-image:"stjohns.jpg"*/
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url("stjohns.jpg");
 }
 
+#tetrisvidtitle {
+    font-family: "Ubuntu";
+    color: white;
+}
+
+#skillsbg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("http://i.stack.imgur.com/7X3An.png");
+}
+
+#indexbg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("cambridge.jpg");
+}
+
+#interestsbg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://wallpaperscraft.com/image/austin_texas_night_skyscrapers_58681_3840x2400.jpg");
+}
+
+#onlinebg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("http://wallpapercave.com/wp/Nn0T6FK.jpg");
+}
+
+#tt1 {
+    height: 200px;
+    width: auto;
+}
+
+#tt2 {
+    height: 270px;
+    width: 360px;
+}
+
+#tt3 {
+    height: 200px;
+    width: auto;
+}
+
 .tabs-advanced {
     display: table;
     border: none;
+    background: rgba(255, 255, 255, 1);
+    width: 100%;
+    font-family: "Ubuntu"
 }
 
-.jumbotron .bg {
-    opacity: 0.20;
+#indextext {
+    font-family: "Ubuntu";
+    position: relative;
+    left: 10%;
+    top: 13%;
+    opacity: 1;
+    font-size: 20;
+    width: 30%;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#interestbody {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-family: "Ubuntu";
+    font-size: 20;
+    color: white;
+}
+
+#interesttext {
+    font-family: "Ubuntu";
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 20;
+}
+
+#mepicture {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+#pylandpic {
+    position: relative;
+    left: 30%;
+    top: 15%;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+#splitbit {}
+
+#splitbitpic {
+    margin-left: 50%;
+    width: 25%;
+    height: auto;
+}
+
+#raytracerpic {
+    margin-left: 40%;
+    width: 20%;
+    height: auto;
+}
+
+.ubuntuFont {
+    font-family: "Ubuntu";
+}
+
+#section1 {
+    font-family: "Ubuntu";
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #1E88E5;
+}
+
+#section2 {
+    font-family: "Ubuntu";
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #673ab7;
+}
+
+#section3 {
+    font-family: "Ubuntu";
+    padding-top: 50px;
+    height: 500px;
+    color: black;
+    background-color: white;
+}
+
+#section4 {
+    font-family: "Ubuntu";
+    padding-top: 50px;
+    height: 500px;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height: 100%;
- }
+    height: 45px;
+    background: #6cf;
+}
